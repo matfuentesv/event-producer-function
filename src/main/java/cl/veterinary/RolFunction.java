@@ -13,7 +13,7 @@ import com.microsoft.azure.functions.annotation.*;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Function {
+public class RolFunction {
 
     private final String eventGridTopicEndpoint = "https://user-role-events-topic.eastus2-1.eventgrid.azure.net/api/events";
     private final String eventGridTopicKey = "FWObSItpv8zDesKQBo5bEYvYKWCGZ9yq1wR82E7DmSm5LHhmGaTkJQQJ99BDACHYHv6XJ3w3AAABAZEGBFN8";
